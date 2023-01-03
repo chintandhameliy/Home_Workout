@@ -3,6 +3,7 @@ package com.example.homeworkout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -20,6 +21,14 @@ public class Workout extends AppCompatActivity {
         abs = findViewById(R.id.abs);
         chest = findViewById(R.id.chest);
         leg = findViewById(R.id.leg);
+
+        fullbody.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Workout.this,AllExercise.class);
+                startActivity(i);
+            }
+        });
 
 
     }

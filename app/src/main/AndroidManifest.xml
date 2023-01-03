@@ -11,11 +11,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.HomeWorkout"
+        android:theme="@style/MyHomeWorkout"
         tools:targetApi="31">
         <activity
             android:name=".ShowData"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Exercise"
             android:exported="false" />

@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">Home Workout</string>
-
-    <string name="app_name">Fitness Workout</string>
-    <string name="jumingjack">Start with your feet together and your arms by your sides, then jump up with your feet apart and your hands overhead.
+        <string name="jumingjack">Start with your feet together and your arms by your sides, then jump up with your feet apart and your hands overhead.
         Return to the start position then do the next rep.
         his exercise provides a full-body workout and works all your large muscle groups.</string>
     <string name="inclinepushup">Start in the regular push-up position but with your hands elevated on a chair or bench.
