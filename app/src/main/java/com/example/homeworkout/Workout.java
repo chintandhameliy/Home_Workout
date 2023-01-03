@@ -5,36 +5,62 @@ import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class Workout extends AppCompatActivity {
 
-    CardView fullBody,arm,abs,chest,leg;
+    CardView fullbody,arm,abs,chest,leg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_workout);
-        fullBody=findViewById(R.id.fullBody);
+
+        fullbody = findViewById(R.id.fullbody);
         arm = findViewById(R.id.arm);
         abs = findViewById(R.id.abs);
         chest = findViewById(R.id.chest);
         leg = findViewById(R.id.leg);
-        Intent setImages=getIntent();
-       int a= setImages.getIntExtra("integer",0);
-       if (a==2){
-           fullBody.setBackgroundResource(R.drawable.female_fullbody);
-           arm.setBackgroundResource(R.drawable.female_arm);
-           chest.setBackgroundResource(R.drawable.female_butt);
-           abs.setBackgroundResource(R.drawable.female_abs);
-           leg.setBackgroundResource(R.drawable.female_leg);
-       }
-       else if (a==1){
-               fullBody.setBackgroundResource(R.drawable.male_fullbody);
-               arm.setBackgroundResource(R.drawable.male_arm);
-               chest.setBackgroundResource(R.drawable.male_chest);
-               abs.setBackgroundResource(R.drawable.male_abs);
-               leg.setBackgroundResource(R.drawable.male_leg);
-       }
+
+        fullbody.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Workout.this,AllExercise.class);
+                startActivity(i);
+            }
+        });
+
+        arm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Workout.this,AllExercise.class);
+                startActivity(i);
+            }
+        });
+
+        abs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Workout.this,AllExercise.class);
+                startActivity(i);
+            }
+        });
+        chest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Workout.this,AllExercise.class);
+                startActivity(i);
+            }
+        });
+        leg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Workout.this,AllExercise.class);
+                startActivity(i);
+            }
+        });
+
+
 
 
     }
