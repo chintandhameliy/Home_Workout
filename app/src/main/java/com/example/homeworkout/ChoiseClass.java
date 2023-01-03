@@ -37,11 +37,11 @@ public class ChoiseClass {
         this.time = time;
     }
 
-    public ChoiseClass(int image, int desc, String name, String time)
+    public ChoiseClass(int image, String name, String time, int desc)
     {
         this.image = image;
-        this.desc = desc;
         this.name = name;
         this.time = time;
+        this.desc = desc;
     }
 }

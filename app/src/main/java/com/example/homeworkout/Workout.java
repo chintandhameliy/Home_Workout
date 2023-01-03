@@ -30,6 +30,38 @@ public class Workout extends AppCompatActivity {
             }
         });
 
+        arm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Workout.this,AllExercise.class);
+                startActivity(i);
+            }
+        });
+
+        abs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Workout.this,AllExercise.class);
+                startActivity(i);
+            }
+        });
+        chest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Workout.this,AllExercise.class);
+                startActivity(i);
+            }
+        });
+        leg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Workout.this,AllExercise.class);
+                startActivity(i);
+            }
+        });
+
+
+
 
     }
 }

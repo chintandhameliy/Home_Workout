@@ -8,6 +8,7 @@
     tools:context=".AllExercise">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -21,8 +22,9 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/button"/>
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/app"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button"
