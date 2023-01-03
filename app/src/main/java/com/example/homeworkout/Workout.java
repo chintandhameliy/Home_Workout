@@ -16,7 +16,7 @@ public class Workout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_workout);
 
-        fullbody = findViewById(R.id.fullbody);
+        fullbody = findViewById(R.id.fullBody);
         arm = findViewById(R.id.arm);
         abs = findViewById(R.id.abs);
         chest = findViewById(R.id.chest);
