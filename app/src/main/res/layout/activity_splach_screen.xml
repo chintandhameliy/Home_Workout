@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".SplachScreen"
 
-    android:background="@drawable/background">
+    android:background="#D09595">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"/>
+
+
 
 </LinearLayout>
