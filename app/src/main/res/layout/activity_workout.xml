@@ -27,6 +27,7 @@
                     android:layout_height="120dp">
 
                     <TextView
+                        android:id="@+id/fullBodyText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -48,6 +49,7 @@
                     android:layout_height="120dp">
 
                     <TextView
+                        android:id="@+id/armText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -69,6 +71,7 @@
                     android:layout_height="120dp">
 
                     <TextView
+                        android:id="@+id/chestText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -90,6 +93,7 @@
                     android:layout_height="120dp">
 
                     <TextView
+                        android:id="@+id/absText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
@@ -112,6 +116,7 @@
                     android:layout_height="120dp">
 
                     <TextView
+                        android:id="@+id/legText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.homeworkout">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -22,9 +21,11 @@
             android:exported="false" />
         <activity
             android:name=".AllExercise"
+            android:parentActivityName=".Workout"
             android:exported="false" />
         <activity
             android:name=".Workout"
+            android:parentActivityName=".Dashboard"
             android:exported="false" />
         <activity
             android:name=".Dashboard"
