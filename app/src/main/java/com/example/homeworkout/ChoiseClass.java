@@ -3,7 +3,7 @@ package com.example.homeworkout;
 public class ChoiseClass {
 
     int image,desc;
-    String name,time;
+    String name,time;//
 
     public int getImage() {
         return image;
